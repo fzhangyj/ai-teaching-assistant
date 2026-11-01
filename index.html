@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>技术型助教 · 产品演示网页</title>
+    <meta
+      name="description"
+      content="技术型助教预发布产品演示网页，由 tasteskill 风格 PPT 转化而来。"
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="页面导航">
+      <a class="brand" href="#top" aria-label="回到顶部">
+        <span class="brand-mark" aria-hidden="true">TA</span>
+        <span>技术型助教</span>
+      </a>
+      <nav class="nav-links" aria-label="主要内容">
+        <a href="#product">产品</a>
+        <a href="./about.html">关于我</a>
+      </nav>
+    </header>
+
+    <main id="top" class="deck">
+      <section class="slide hero-slide" aria-labelledby="hero-title">
+        <div class="slide-number" aria-hidden="true">01 / 02</div>
+        <div class="slide-copy">
+          <p class="eyebrow">About Me</p>
+          <h1 id="hero-title">
+            <span>我是技术型助教，</span>
+            <span>小学生，</span>
+            <span>正在用 AI</span>
+            <span>把想法做成作品。</span>
+          </h1>
+          <p class="lede">
+            我在学校读书，喜欢打排球和做手工，也会使用很多 AI 工具，<br>
+            比如 Codex 和 Bolt。
+          </p>
+          <div class="identity-strip" aria-label="个人信息">
+            <span>技术型助教</span>
+            <span>小学生</span>
+            <span>学校学生</span>
+            <span>会用 Codex、Bolt 等 AI 工具</span>
+          </div>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="primary-action" href="./about.html">完整介绍</a>
+            <a class="secondary-action" href="#product">查看产品</a>
+          </div>
+        </div>
+
+        <div class="profile-panel hero-profile" aria-label="技术型助教的个人信息">
+          <div class="profile-mark">ZF</div>
+          <dl>
+            <div>
+              <dt>姓名</dt>
+              <dd>技术型助教</dd>
+            </div>
+            <div>
+              <dt>年龄</dt>
+              <dd>小学生</dd>
+            </div>
+            <div>
+              <dt>学校</dt>
+              <dd>学校</dd>
+            </div>
+            <div>
+              <dt>AI 工具</dt>
+              <dd>Codex / Bolt / 以及更多 AI 工具</dd>
+            </div>
+            <div>
+              <dt>喜欢</dt>
+              <dd>打排球、做手工</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="product" class="slide product-slide" aria-labelledby="product-title">
+        <div class="slide-number" aria-hidden="true">02 / 02</div>
+        <div class="product-main">
+          <div class="product-copy">
+            <p class="eyebrow">Product</p>
+            <h2 id="product-title">技术型助教：把项目推进到下一步。</h2>
+            <p class="lede">
+              它不是陪聊型 AI，而是面向真实课程项目的诊断工作台：读懂代码结构、定位问题、给出修改方向，并把排查过程沉淀成学习路径。
+            </p>
+            <div class="product-actions" aria-label="产品材料下载">
+              <a class="primary-action" href="./技术型助教自我介绍_tasteskill优化版.pptx">下载 PPT</a>
+              <a class="secondary-action" href="./技术型助教自我介绍_tasteskill优化版.pdf">下载 PDF</a>
+            </div>
+          </div>
+
+          <figure class="product-proof" aria-label="项目诊断工作台界面">
+            <img src="./assets/product-preview.png" alt="项目诊断工作台完整界面预览">
+          </figure>
+        </div>
+
+        <div class="product-dashboard" aria-label="产品总览">
+          <article class="product-status dark-card">
+            <span>Now</span>
+            <h3>已经做出来</h3>
+            <p>核心流程和产品界面已完成，当前重点是体验打磨，下一步准备公开发布。</p>
+          </article>
+          <article>
+            <span>01</span>
+            <h3>读懂结构</h3>
+            <p>拆开组件、接口、状态和数据流，让代码不再只是能运行。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>定位问题</h3>
+            <p>从报错、复现、依赖和环境入手，快速缩小问题范围。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>推进交付</h3>
+            <p>关注页面完成度、接口连通性、部署准备和展示效果。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>保留路径</h3>
+            <p>留下判断过程，让下一次同类问题能自己处理。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
